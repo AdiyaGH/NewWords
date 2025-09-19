@@ -1,1 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>New Words 🎁</title>
+  <style>
+    body { font-family: system-ui, Arial; margin: 2rem; background: #fafafa; }
+    .card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:24px;
+            max-width:700px; margin:auto; box-shadow:0 3px 12px rgba(0,0,0,.06) }
+    h1 { margin-top:0 }
+    button { font-size:18px; padding:12px 18px; border-radius:8px; border:1px solid #ccc; cursor:pointer }
+    button:active { transform: translateY(1px) }
+    .word { font-size:26px; font-weight:700; margin:14px 0 6px }
+    .pos { font-style:italic; color:#666; margin-bottom:8px }
+    .def { font-size:18px; line-height:1.45 }
+    .small { font-size:13px; color:#666; margin-top:10px }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Surprise Word Wednesday 🎁</h1>
+    <p>Click the button to get a new word + definition from <code>words.json</code>.</p>
+    <button id="btn">Surprise us!</button>
+    <div id="result"></div>
+    <p class="small">To add more words, edit <code>words.json</code> in this repo.</p>
+  </div>
+
+  <script>
+    // If words.json can't be loaded, use a tiny fallback so the page still works.
+    const FALLBACK = [
+      {"word":"effervescent","part":"adj.","def":"Bubbly; high-spirited."},
+      {"word":"verdant","part":"adj.","def":"Green and lush with vegetation."},
+      {"word":"diaphanous","part":"adj.","def":"Light, delicate, and translucent."}
+    ];
+
+    let WORDS = [];          // filled from words.json
+    let lastWord = "";       // to reduce instant repeats
+
+    async function loadWords() {
+      try {
+        // same folder as index.html
+        const r = await fetch("words.json", { cache: "no-store" });
+        if (!r.ok) throw new Error("fetch failed");
+        WORDS = await r.json();
+      } catch {
+        WORDS = FALLBACK;
+      }
+    }
+
+    function pickWord() {
+      if (!WORDS.length) return null;
+      let i = Math.floor(Math.random() * WORDS.length);
+      if (WORDS.length > 1 && WORDS[i].word === lastWord) {
+        i = Math.floor(Math.random() * WORDS.length);
+      }
+      lastWord = WORDS[i].word;
+      return WORDS[i];
+    }
+
+    function show(entry) {
+      const box = document.getElementById("result");
+      const example = entry.example ? `<div class="small">Example: “${entry.example}”</div>` : "";
+      box.innerHTML = `
+        <div class="word">${entry.word}</div>
+        <div class="pos">${entry.part || ""}</div>
+        <div class="def">${entry.def || ""}</div>
+        ${example}
+      `;
+    }
+
+    async function surprise() {
+      const btn = document.getElementById("btn");
+      btn.disabled = true; btn.textContent = "Thinking…";
+      if (!WORDS.length) await loadWords();
+      const entry = pickWord();
+      if (entry) show(entry);
+      btn.disabled = false; btn.textContent = "Surprise us!";
+    }
+
+    document.getElementById("btn").addEventListener("click", surprise);
+  </script>
+</body>
+</html>
 
