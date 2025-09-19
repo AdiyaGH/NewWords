@@ -22,6 +22,7 @@
     <h1>Digi Word Wed</h1>
     <p>Click the button to get a new word + definition from <code>words.json</code>.</p>
     <button id="btn">Pick a word</button>
+    <button id="speakBrn" disabled>🔊 Pronounce</button>
     <div id="result"></div>
     <p class="small">To add more words, edit <code>words.json</code> in this repo.</p>
   </div>
@@ -36,6 +37,9 @@
 
     let WORDS = [];          // filled from words.json
     let lastWord = "";       // to reduce instant repeats
+    let currentEntry = null;   // what’s showing now
+let voices = [];           // available speech voices
+
 
     async function loadWords() {
       try {
@@ -58,25 +62,44 @@
       return WORDS[i];
     }
 
-    function show(entry) {
-      const box = document.getElementById("result");
-      const example = entry.example ? `<div class="small">Example: “${entry.example}”</div>` : "";
-      box.innerHTML = `
-        <div class="word">${entry.word}</div>
-        <div class="pos">${entry.part || ""}</div>
-        <div class="def">${entry.def || ""}</div>
-        ${example}
-      `;
-    }
+function show(entry) {
+  currentEntry = entry;  // remember current word
+  const box = document.getElementById("result");
+  const example = entry.example ? `<div class="small">Example: “${entry.example}”</div>` : "";
+  box.innerHTML = `
+    <div class="word">${entry.word}</div>
+    <div class="pos">${entry.part || ""}</div>
+    <div class="def">${entry.def || ""}</div>
+    ${example}
+  `;
 
-    async function surprise() {
-      const btn = document.getElementById("btn");
-      btn.disabled = true; btn.textContent = "Thinking…";
-      if (!WORDS.length) await loadWords();
-      const entry = pickWord();
-      if (entry) show(entry);
-      btn.disabled = false; btn.textContent = "Pick a word";
-    }
+  // enable pronounce button and wire it up
+  const speakBtn = document.getElementById("speakBtn");
+  speakBtn.disabled = false;
+  speakBtn.onclick = () => {
+    const toSay = entry.def ? `${entry.word}. ${entry.def}` : entry.word; // say word + def
+    // If you prefer only the word, use: const toSay = entry.word;
+    speak(toSay);
+  };
+}
+    function speak(text) {
+  if (!("speechSynthesis" in window)) {
+    alert("Sorry—your browser doesn’t support speech.");
+    return;
+  }
+  const utter = new SpeechSynthesisUtterance(text);
+  if (voices.length === 0) voices = window.speechSynthesis.getVoices();
+  const pick = voices.find(v => /^en(-|_)?(US|GB|AU|CA|IN)/i.test(v.lang)) || voices[0];
+  if (pick) utter.voice = pick;
+  utter.rate = 1.0;   // speed 0.5–2.0
+  utter.pitch = 1.0;  // pitch 0–2
+  window.speechSynthesis.cancel();   // stop any current speech
+  window.speechSynthesis.speak(utter);
+}
+// Some browsers load voices later:
+window.speechSynthesis.onvoiceschanged = () => {
+  voices = window.speechSynthesis.getVoices();
+};
 
     document.getElementById("btn").addEventListener("click", surprise);
   </script>
