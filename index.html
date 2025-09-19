@@ -22,7 +22,7 @@
     <h1>Digi Word Wed</h1>
     <p>Click the button to get a new word + definition from <code>words.json</code>.</p>
     <button id="btn">Pick a word</button>
-    <button id="speakBrn" disabled>🔊 Pronounce</button>
+    <button id="speakBtn" disabled>🔊 Pronounce</button>
     <div id="result"></div>
     <p class="small">To add more words, edit <code>words.json</code> in this repo.</p>
   </div>
@@ -100,7 +100,24 @@ function show(entry) {
 window.speechSynthesis.onvoiceschanged = () => {
   voices = window.speechSynthesis.getVoices();
 };
+// ↓↓↓ paste this RIGHT ABOVE the addEventListener line ↓↓↓
+async function surprise() {
+  const btn = document.getElementById("btn");
+  btn.disabled = true;
+  btn.textContent = "Thinking…";
 
+  // Load the word list if we haven't yet
+  if (!WORDS.length) {
+    await loadWords();
+  }
+
+  // Pick and show a word
+  const entry = pickWord();
+  if (entry) show(entry);
+
+  btn.disabled = false;
+  btn.textContent = "Pick a word";
+}
     document.getElementById("btn").addEventListener("click", surprise);
   </script>
 </body>
