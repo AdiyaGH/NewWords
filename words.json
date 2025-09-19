@@ -4,4 +4,796 @@
   {"word":"sonorous","part":"adj.","def":"Deep, full, and rich in sound.","example":"A sonorous voice filled the hall."},
   {"word":"quotidian","part":"adj.","def":"Ordinary or everyday; commonplace.","example":"He found joy in the quotidian."},
   {"word":"raconteur","part":"n.","def":"A skilled storyteller.","example":"He’s a raconteur at dinner parties."}
+  {
+    "word": "sapient",
+    "part": "adj.",
+    "def": "Wise; appearing or attempting to be wise.",
+    "example": "A sapient remark ended the argument."
+  },
+  {
+    "word": "sacrosanct",
+    "part": "adj.",
+    "def": "Regarded as too important to be interfered with.",
+    "example": "Family dinner was sacrosanct in their home."
+  },
+  {
+    "word": "serendipity",
+    "part": "n.",
+    "def": "The pleasant surprise of finding something valuable by chance.",
+    "example": "They met by pure serendipity."
+  },
+  {
+    "word": "oblivious",
+    "part": "adj.",
+    "def": "Unaware of or not concerned about what is happening.",
+    "example": "He was oblivious to the noise around him."
+  },
+  {
+    "word": "effervescent",
+    "part": "adj.",
+    "def": "Vivacious and enthusiastic; bubbly.",
+    "example": "Her effervescent energy lifted the room."
+  },
+  {
+    "word": "ephemeral",
+    "part": "adj.",
+    "def": "Lasting for a very short time.",
+    "example": "Sunsets are beautiful but ephemeral."
+  },
+  {
+    "word": "tenacious",
+    "part": "adj.",
+    "def": "Holding firmly; persistent and determined.",
+    "example": "Her tenacious spirit never wavered."
+  },
+  {
+    "word": "mellifluous",
+    "part": "adj.",
+    "def": "Sweet or musical; pleasant to hear.",
+    "example": "A mellifluous voice filled the hall."
+  },
+  {
+    "word": "resplendent",
+    "part": "adj.",
+    "def": "Shining brilliantly; splendid in appearance.",
+    "example": "The garden was resplendent with flowers."
+  },
+  {
+    "word": "lucid",
+    "part": "adj.",
+    "def": "Clear and easy to understand; bright.",
+    "example": "He gave a lucid explanation."
+  },
+  {
+    "word": "verdant",
+    "part": "adj.",
+    "def": "Green with vegetation; lush.",
+    "example": "Verdant hills rolled to the horizon."
+  },
+  {
+    "word": "sonorous",
+    "part": "adj.",
+    "def": "Deep, rich, and resonant in sound.",
+    "example": "A sonorous bell tolled at noon."
+  },
+  {
+    "word": "luminous",
+    "part": "adj.",
+    "def": "Radiating or reflecting light; clear.",
+    "example": "The path was lit by luminous lanterns."
+  },
+  {
+    "word": "quixotic",
+    "part": "adj.",
+    "def": "Unrealistically idealistic; impractical.",
+    "example": "His quixotic plan soon unraveled."
+  },
+  {
+    "word": "winsome",
+    "part": "adj.",
+    "def": "Attractively charming and appealing.",
+    "example": "She flashed a winsome smile."
+  },
+  {
+    "word": "cacophonous",
+    "part": "adj.",
+    "def": "Harsh or discordant in sound.",
+    "example": "Traffic made a cacophonous roar."
+  },
+  {
+    "word": "placid",
+    "part": "adj.",
+    "def": "Calm and peaceful; untroubled.",
+    "example": "The lake was placid at dawn."
+  },
+  {
+    "word": "incandescent",
+    "part": "adj.",
+    "def": "Glowing with heat; brilliantly lively.",
+    "example": "Her incandescent joy was contagious."
+  },
+  {
+    "word": "ineluctable",
+    "part": "adj.",
+    "def": "Unable to be resisted or avoided; inescapable.",
+    "example": "They faced the ineluctable truth."
+  },
+  {
+    "word": "ineffable",
+    "part": "adj.",
+    "def": "Too great or extreme to be expressed in words.",
+    "example": "An ineffable joy overwhelmed him."
+  },
+  {
+    "word": "numinous",
+    "part": "adj.",
+    "def": "Having a strong spiritual or mysterious quality.",
+    "example": "The old temple felt numinous at dusk."
+  },
+  {
+    "word": "redolent",
+    "part": "adj.",
+    "def": "Strongly reminiscent of; fragrant.",
+    "example": "The air was redolent of jasmine."
+  },
+  {
+    "word": "cathartic",
+    "part": "adj.",
+    "def": "Emotionally purging; providing release.",
+    "example": "Writing the letter was cathartic."
+  },
+  {
+    "word": "diaphanous",
+    "part": "adj.",
+    "def": "Light, delicate, and translucent.",
+    "example": "A diaphanous veil drifted in the breeze."
+  },
+  {
+    "word": "pellucid",
+    "part": "adj.",
+    "def": "Transparently clear; easily understood.",
+    "example": "Her pellucid prose delighted readers."
+  },
+  {
+    "word": "salubrious",
+    "part": "adj.",
+    "def": "Health-giving; pleasant and clean.",
+    "example": "They moved to a salubrious climate."
+  },
+  {
+    "word": "sublime",
+    "part": "adj.",
+    "def": "Of such excellence as to inspire awe.",
+    "example": "The symphony was simply sublime."
+  },
+  {
+    "word": "vivacious",
+    "part": "adj.",
+    "def": "Lively and spirited in temper or conduct.",
+    "example": "A vivacious host led the party."
+  },
+  {
+    "word": "feral",
+    "part": "adj.",
+    "def": "Wild; untamed.",
+    "example": "Feral cats skulked in the alley."
+  },
+  {
+    "word": "halcyon",
+    "part": "adj.",
+    "def": "Denoting a peaceful, happy time in the past.",
+    "example": "They recalled halcyon summer days."
+  },
+  {
+    "word": "labyrinthine",
+    "part": "adj.",
+    "def": "Complicated; maze-like.",
+    "example": "The old city’s lanes were labyrinthine."
+  },
+  {
+    "word": "loquacious",
+    "part": "adj.",
+    "def": "Talkative; fond of conversation.",
+    "example": "A loquacious neighbor told long stories."
+  },
+  {
+    "word": "pulchritudinous",
+    "part": "adj.",
+    "def": "Physically beautiful.",
+    "example": "A pulchritudinous vista unfolded below."
+  },
+  {
+    "word": "rambunctious",
+    "part": "adj.",
+    "def": "Boisterous and full of energy.",
+    "example": "Rambunctious kids filled the playground."
+  },
+  {
+    "word": "recalcitrant",
+    "part": "adj.",
+    "def": "Stubbornly resistant to authority or control.",
+    "example": "A recalcitrant student refused to comply."
+  },
+  {
+    "word": "sardonic",
+    "part": "adj.",
+    "def": "Grimly mocking or cynical.",
+    "example": "He offered a sardonic chuckle."
+  },
+  {
+    "word": "scintillating",
+    "part": "adj.",
+    "def": "Brilliantly lively or witty; sparkling.",
+    "example": "Her scintillating banter dazzled guests."
+  },
+  {
+    "word": "taciturn",
+    "part": "adj.",
+    "def": "Reserved or uncommunicative in speech.",
+    "example": "A taciturn driver kept silent."
+  },
+  {
+    "word": "ubiquitous",
+    "part": "adj.",
+    "def": "Present or found everywhere.",
+    "example": "Smartphones are ubiquitous today."
+  },
+  {
+    "word": "zealous",
+    "part": "adj.",
+    "def": "Filled with passionate energy for a cause.",
+    "example": "Zealous volunteers canvassed the town."
+  },
+  {
+    "word": "acerbic",
+    "part": "adj.",
+    "def": "Sharp or biting in tone or taste.",
+    "example": "Her acerbic wit cut deep."
+  },
+  {
+    "word": "austere",
+    "part": "adj.",
+    "def": "Severe or simple in style; strict.",
+    "example": "An austere room with bare walls."
+  },
+  {
+    "word": "avaricious",
+    "part": "adj.",
+    "def": "Greedy for wealth; grasping.",
+    "example": "An avaricious magnate hoarded profits."
+  },
+  {
+    "word": "beatific",
+    "part": "adj.",
+    "def": "Blissfully happy; saintly.",
+    "example": "A beatific smile spread across her face."
+  },
+  {
+    "word": "bombastic",
+    "part": "adj.",
+    "def": "High-sounding but with little meaning; pompous.",
+    "example": "A bombastic speech drew eye-rolls."
+  },
+  {
+    "word": "bucolic",
+    "part": "adj.",
+    "def": "Relating to the pleasant aspects of the countryside.",
+    "example": "A bucolic scene of grazing sheep."
+  },
+  {
+    "word": "callow",
+    "part": "adj.",
+    "def": "Inexperienced and immature.",
+    "example": "A callow intern made avoidable errors."
+  },
+  {
+    "word": "capricious",
+    "part": "adj.",
+    "def": "Given to sudden changes of mood; fickle.",
+    "example": "Capricious winds shifted hourly."
+  },
+  {
+    "word": "cavernous",
+    "part": "adj.",
+    "def": "Like a cavern; vast and deep.",
+    "example": "A cavernous hall swallowed their footsteps."
+  },
+  {
+    "word": "choleric",
+    "part": "adj.",
+    "def": "Bad-tempered or irritable.",
+    "example": "A choleric chef barked orders."
+  },
+  {
+    "word": "cogent",
+    "part": "adj.",
+    "def": "Clear, logical, and convincing.",
+    "example": "She made a cogent case for change."
+  },
+  {
+    "word": "copacetic",
+    "part": "adj.",
+    "def": "Completely satisfactory; fine.",
+    "example": "Everything is copacetic for the launch."
+  },
+  {
+    "word": "crepuscular",
+    "part": "adj.",
+    "def": "Relating to twilight; dimly lit.",
+    "example": "Crepuscular light softened the streets."
+  },
+  {
+    "word": "demure",
+    "part": "adj.",
+    "def": "Modest and reserved in manner.",
+    "example": "Her demure nod ended the debate."
+  },
+  {
+    "word": "dilatory",
+    "part": "adj.",
+    "def": "Slow to act; intended to delay.",
+    "example": "A dilatory tactic stalled the vote."
+  },
+  {
+    "word": "ebullient",
+    "part": "adj.",
+    "def": "Cheerful and full of energy.",
+    "example": "An ebullient crowd filled the square."
+  },
+  {
+    "word": "eclectic",
+    "part": "adj.",
+    "def": "Deriving ideas or style from diverse sources.",
+    "example": "An eclectic playlist jumped genres."
+  },
+  {
+    "word": "effulgent",
+    "part": "adj.",
+    "def": "Shining brightly; radiant.",
+    "example": "Effulgent sunlight poured through windows."
+  },
+  {
+    "word": "elegiac",
+    "part": "adj.",
+    "def": "Mournful or reflective in tone.",
+    "example": "An elegiac melody drifted softly."
+  },
+  {
+    "word": "elucidate",
+    "part": "v.",
+    "def": "To make clear; to explain.",
+    "example": "She elucidated the complex rules."
+  },
+  {
+    "word": "ethereal",
+    "part": "adj.",
+    "def": "Extremely delicate and light; unearthly.",
+    "example": "An ethereal mist lay over the meadow."
+  },
+  {
+    "word": "facetious",
+    "part": "adj.",
+    "def": "Treating serious issues with inappropriate humor.",
+    "example": "A facetious remark fell flat."
+  },
+  {
+    "word": "fecund",
+    "part": "adj.",
+    "def": "Fertile; producing many new ideas or offspring.",
+    "example": "A fecund imagination birthed stories."
+  },
+  {
+    "word": "felicitous",
+    "part": "adj.",
+    "def": "Well-chosen; pleasingly apt.",
+    "example": "A felicitous phrase captured the mood."
+  },
+  {
+    "word": "florid",
+    "part": "adj.",
+    "def": "Elaborate or excessively intricate; flushed.",
+    "example": "A florid style full of ornament."
+  },
+  {
+    "word": "fortuitous",
+    "part": "adj.",
+    "def": "Happening by chance; lucky.",
+    "example": "A fortuitous encounter changed everything."
+  },
+  {
+    "word": "fractious",
+    "part": "adj.",
+    "def": "Irritable and quarrelsome; unruly.",
+    "example": "A fractious debate erupted."
+  },
+  {
+    "word": "garrulous",
+    "part": "adj.",
+    "def": "Excessively talkative, especially on trivial matters.",
+    "example": "A garrulous cabbie recounted his life."
+  },
+  {
+    "word": "grandiloquent",
+    "part": "adj.",
+    "def": "Pompous or extravagant in language.",
+    "example": "A grandiloquent toast drew laughter."
+  },
+  {
+    "word": "gregarious",
+    "part": "adj.",
+    "def": "Sociable; enjoying the company of others.",
+    "example": "Gregarious hosts welcomed everyone."
+  },
+  {
+    "word": "harrowing",
+    "part": "adj.",
+    "def": "Acutely distressing or painful.",
+    "example": "A harrowing tale of survival."
+  },
+  {
+    "word": "hedonistic",
+    "part": "adj.",
+    "def": "Devoted to pleasure and self-indulgence.",
+    "example": "A hedonistic weekend at the spa."
+  },
+  {
+    "word": "incorrigible",
+    "part": "adj.",
+    "def": "Not able to be corrected or reformed.",
+    "example": "An incorrigible prankster struck again."
+  },
+  {
+    "word": "indelible",
+    "part": "adj.",
+    "def": "Not able to be removed or forgotten.",
+    "example": "An indelible memory lingered."
+  },
+  {
+    "word": "inscrutable",
+    "part": "adj.",
+    "def": "Impossible to understand or interpret.",
+    "example": "An inscrutable expression masked her thoughts."
+  },
+  {
+    "word": "insidious",
+    "part": "adj.",
+    "def": "Proceeding subtly but with harmful effects.",
+    "example": "An insidious rumor spread quietly."
+  },
+  {
+    "word": "intrepid",
+    "part": "adj.",
+    "def": "Fearless; adventurous.",
+    "example": "Intrepid hikers crossed the ridge."
+  },
+  {
+    "word": "jocular",
+    "part": "adj.",
+    "def": "Humorous or playful.",
+    "example": "A jocular reply lightened the mood."
+  },
+  {
+    "word": "judicious",
+    "part": "adj.",
+    "def": "Having good judgment; sensible.",
+    "example": "A judicious choice saved time."
+  },
+  {
+    "word": "laconic",
+    "part": "adj.",
+    "def": "Using very few words; concise.",
+    "example": "His laconic answer ended the talk."
+  },
+  {
+    "word": "lissome",
+    "part": "adj.",
+    "def": "Thin, supple, and graceful.",
+    "example": "A lissome dancer floated by."
+  },
+  {
+    "word": "lugubrious",
+    "part": "adj.",
+    "def": "Looking or sounding sad and dismal.",
+    "example": "A lugubrious tune played softly."
+  },
+  {
+    "word": "magnanimous",
+    "part": "adj.",
+    "def": "Generous or forgiving, especially to a rival.",
+    "example": "A magnanimous gesture ended the feud."
+  },
+  {
+    "word": "mordant",
+    "part": "adj.",
+    "def": "Sharply critical or biting in style.",
+    "example": "A mordant critique cut deep."
+  },
+  {
+    "word": "nascent",
+    "part": "adj.",
+    "def": "Just coming into existence; emerging.",
+    "example": "A nascent movement gained traction."
+  },
+  {
+    "word": "noxious",
+    "part": "adj.",
+    "def": "Harmful or poisonous.",
+    "example": "Noxious fumes filled the lab."
+  },
+  {
+    "word": "obdurate",
+    "part": "adj.",
+    "def": "Stubbornly refusing to change opinion.",
+    "example": "An obdurate stance blocked progress."
+  },
+  {
+    "word": "obsequious",
+    "part": "adj.",
+    "def": "Excessively obedient or attentive; fawning.",
+    "example": "Obsequious aides nodded at everything."
+  },
+  {
+    "word": "odious",
+    "part": "adj.",
+    "def": "Extremely unpleasant; repulsive.",
+    "example": "An odious smell lingered."
+  },
+  {
+    "word": "onerous",
+    "part": "adj.",
+    "def": "Involving a great deal of effort and difficulty.",
+    "example": "An onerous contract bound them."
+  },
+  {
+    "word": "opulent",
+    "part": "adj.",
+    "def": "Ostentatiously rich and luxurious.",
+    "example": "An opulent ballroom gleamed."
+  },
+  {
+    "word": "ossified",
+    "part": "adj.",
+    "def": "Hardened into rigidity; inflexible.",
+    "example": "An ossified policy resisted change."
+  },
+  {
+    "word": "palliative",
+    "part": "adj.",
+    "def": "Relieving pain without addressing the cause.",
+    "example": "Palliative measures eased discomfort."
+  },
+  {
+    "word": "palpable",
+    "part": "adj.",
+    "def": "So intense as to seem tangible; perceptible.",
+    "example": "A palpable tension filled the air."
+  },
+  {
+    "word": "panacea",
+    "part": "n.",
+    "def": "A solution for all difficulties or diseases.",
+    "example": "There is no panacea for grief."
+  },
+  {
+    "word": "parsimonius",
+    "part": "adj.",
+    "def": "Excessively unwilling to spend; stingy.",
+    "example": "A parsimonious host skimped on snacks."
+  },
+  {
+    "word": "penurious",
+    "part": "adj.",
+    "def": "Extremely poor; unwilling to spend.",
+    "example": "Penurious times forced hard choices."
+  },
+  {
+    "word": "perfidious",
+    "part": "adj.",
+    "def": "Deceitful and untrustworthy.",
+    "example": "A perfidious ally betrayed them."
+  },
+  {
+    "word": "pernicious",
+    "part": "adj.",
+    "def": "Having a harmful effect, especially gradually.",
+    "example": "Pernicious weeds choked the garden."
+  },
+  {
+    "word": "perspicacious",
+    "part": "adj.",
+    "def": "Having keen insight and understanding.",
+    "example": "A perspicacious analyst spotted the flaw."
+  },
+  {
+    "word": "phlegmatic",
+    "part": "adj.",
+    "def": "Calm and unemotional; sluggish.",
+    "example": "A phlegmatic guard stood watch."
+  },
+  {
+    "word": "pithy",
+    "part": "adj.",
+    "def": "Concise and forcefully expressive.",
+    "example": "A pithy slogan stuck in minds."
+  },
+  {
+    "word": "plangent",
+    "part": "adj.",
+    "def": "Loud, resonant, and mournful.",
+    "example": "Plangent bells tolled at dusk."
+  },
+  {
+    "word": "plenipotent",
+    "part": "adj.",
+    "def": "Having full power or authority.",
+    "example": "A plenipotent envoy negotiated terms."
+  },
+  {
+    "word": "pragmatic",
+    "part": "adj.",
+    "def": "Dealing sensibly with practical matters.",
+    "example": "A pragmatic fix solved it quickly."
+  },
+  {
+    "word": "precocious",
+    "part": "adj.",
+    "def": "Advanced for one’s age; early in development.",
+    "example": "A precocious child read novels."
+  },
+  {
+    "word": "profligate",
+    "part": "adj.",
+    "def": "Recklessly wasteful; wildly extravagant.",
+    "example": "Profligate spending drained the budget."
+  },
+  {
+    "word": "propitious",
+    "part": "adj.",
+    "def": "Giving a good chance of success; favorable.",
+    "example": "Propitious weather greeted the launch."
+  },
+  {
+    "word": "quaint",
+    "part": "adj.",
+    "def": "Attractively unusual or old-fashioned.",
+    "example": "A quaint cottage by the stream."
+  },
+  {
+    "word": "querulous",
+    "part": "adj.",
+    "def": "Complaining in a whiny manner.",
+    "example": "A querulous tone filled the room."
+  },
+  {
+    "word": "rancorous",
+    "part": "adj.",
+    "def": "Characterized by bitterness or resentment.",
+    "example": "A rancorous debate dragged on."
+  },
+  {
+    "word": "refulgent",
+    "part": "adj.",
+    "def": "Shining brightly; radiant.",
+    "example": "A refulgent moon lit the bay."
+  },
+  {
+    "word": "restive",
+    "part": "adj.",
+    "def": "Unable to keep still or silent; restless.",
+    "example": "Restive students fidgeted."
+  },
+  {
+    "word": "sagacious",
+    "part": "adj.",
+    "def": "Having or showing good judgment; wise.",
+    "example": "A sagacious mentor guided her."
+  },
+  {
+    "word": "salient",
+    "part": "adj.",
+    "def": "Most noticeable or important.",
+    "example": "She summarized the salient points."
+  },
+  {
+    "word": "sanguine",
+    "part": "adj.",
+    "def": "Optimistic or positive in a bad situation.",
+    "example": "He remained sanguine despite setbacks."
+  },
+  {
+    "word": "sinuous",
+    "part": "adj.",
+    "def": "Having many curves and turns; lithe.",
+    "example": "A sinuous road climbed the ridge."
+  },
+  {
+    "word": "solipsistic",
+    "part": "adj.",
+    "def": "Self-centered; viewing the self as all that exists.",
+    "example": "A solipsistic outlook alienated friends."
+  },
+  {
+    "word": "soporific",
+    "part": "adj.",
+    "def": "Tending to induce drowsiness.",
+    "example": "The lecture was soporific."
+  },
+  {
+    "word": "splenetic",
+    "part": "adj.",
+    "def": "Bad-tempered; spiteful.",
+    "example": "A splenetic rant cleared the room."
+  },
+  {
+    "word": "staid",
+    "part": "adj.",
+    "def": "Serious, respectable, and unadventurous.",
+    "example": "A staid affair with polite applause."
+  },
+  {
+    "word": "subliminal",
+    "part": "adj.",
+    "def": "Below the threshold of conscious perception.",
+    "example": "Subliminal cues shaped choices."
+  },
+  {
+    "word": "talismanic",
+    "part": "adj.",
+    "def": "Having magical or protective power.",
+    "example": "A talismanic charm hung from her neck."
+  },
+  {
+    "word": "torrid",
+    "part": "adj.",
+    "def": "Very hot and dry; passionate.",
+    "example": "A torrid summer scorched the fields."
+  },
+  {
+    "word": "trenchant",
+    "part": "adj.",
+    "def": "Vigorous or incisive in expression or style.",
+    "example": "A trenchant critique exposed flaws."
+  },
+  {
+    "word": "unctuous",
+    "part": "adj.",
+    "def": "Excessively flattering; oily.",
+    "example": "An unctuous apology felt insincere."
+  },
+  {
+    "word": "venerable",
+    "part": "adj.",
+    "def": "Commanding respect due to age or dignity.",
+    "example": "A venerable professor addressed the class."
+  },
+  {
+    "word": "verdigris",
+    "part": "n.",
+    "def": "A green patina formed on copper or brass.",
+    "example": "Verdigris stained the old statue."
+  },
+  {
+    "word": "verisimilar",
+    "part": "adj.",
+    "def": "Appearing true or real; plausible.",
+    "example": "A verisimilar scene fooled viewers."
+  },
+  {
+    "word": "viridescent",
+    "part": "adj.",
+    "def": "Greenish; becoming green.",
+    "example": "Viridescent leaves unfurled in spring."
+  },
+  {
+    "word": "vitriolic",
+    "part": "adj.",
+    "def": "Filled with bitter criticism; caustic.",
+    "example": "Vitriolic comments stung."
+  },
+  {
+    "word": "zephyr",
+    "part": "n.",
+    "def": "A soft, gentle breeze.",
+    "example": "A zephyr cooled the porch."
+  }
 ]
