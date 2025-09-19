@@ -21,7 +21,7 @@
   <div class="card">
     <h1>Digi Word Wed</h1>
     <p>Click the button to get a new word + definition from <code>words.json</code>.</p>
-    <button id="btn">Select word</button>
+    <button id="btn">Pick a word</button>
     <div id="result"></div>
     <p class="small">To add more words, edit <code>words.json</code> in this repo.</p>
   </div>
@@ -75,7 +75,7 @@
       if (!WORDS.length) await loadWords();
       const entry = pickWord();
       if (entry) show(entry);
-      btn.disabled = false; btn.textContent = "Select word";
+      btn.disabled = false; btn.textContent = "Pick a word";
     }
 
     document.getElementById("btn").addEventListener("click", surprise);
