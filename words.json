@@ -3,7 +3,7 @@
   {"word":"liminal","part":"adj.","def":"At a threshold; in a transitional stage.","example":"She felt in a liminal moment between jobs."},
   {"word":"sonorous","part":"adj.","def":"Deep, full, and rich in sound.","example":"A sonorous voice filled the hall."},
   {"word":"quotidian","part":"adj.","def":"Ordinary or everyday; commonplace.","example":"He found joy in the quotidian."},
-  {"word":"raconteur","part":"n.","def":"A skilled storyteller.","example":"He’s a raconteur at dinner parties."}
+  {"word":"raconteur","part":"n.","def":"A skilled storyteller.","example":"He’s a raconteur at dinner parties."},
   {
     "word": "sapient",
     "part": "adj.",
@@ -69,12 +69,6 @@
     "part": "adj.",
     "def": "Green with vegetation; lush.",
     "example": "Verdant hills rolled to the horizon."
-  },
-  {
-    "word": "sonorous",
-    "part": "adj.",
-    "def": "Deep, rich, and resonant in sound.",
-    "example": "A sonorous bell tolled at noon."
   },
   {
     "word": "luminous",
@@ -575,7 +569,7 @@
     "example": "There is no panacea for grief."
   },
   {
-    "word": "parsimonius",
+    "word": "parsimonious",
     "part": "adj.",
     "def": "Excessively unwilling to spend; stingy.",
     "example": "A parsimonious host skimped on snacks."
