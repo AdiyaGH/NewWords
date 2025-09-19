@@ -75,7 +75,7 @@
       if (!WORDS.length) await loadWords();
       const entry = pickWord();
       if (entry) show(entry);
-      btn.disabled = false; btn.textContent = "Surprise us!";
+      btn.disabled = false; btn.textContent = "Select word";
     }
 
     document.getElementById("btn").addEventListener("click", surprise);
